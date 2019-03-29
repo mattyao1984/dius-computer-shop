@@ -4,8 +4,11 @@
   "description": "Main functions of the shopping cart",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Matt Yao <matt.yao@catch.com.au> (https://github.com/mattyao-cotd/npm-module-demo.git)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.5.0"
+  }
 }

@@ -3,6 +3,7 @@ class ShoppingCheckout {
     this.priceRules = priceRules;
     this.myCart = new Map([]);
     this.totalPrice = 0;
+    this.consoleError = null;
   }
 
   scan(item) {
@@ -14,13 +15,15 @@ class ShoppingCheckout {
         this.myCart.set(item, count + 1);
       }
     } else {
-      console.log('Sorry, this product: ' + item + ' information is not in our system.');
+      this.consoleError = 'Sorry, this product: ' + item + ' information is not in our system.';
+      console.log(this.consoleError);
     }
   }
 
   clear() {
     this.myCart = new Map([]);
     this.totalPrice = 0;
+    this.consoleError = null;
   }
 
   displayResult() {
