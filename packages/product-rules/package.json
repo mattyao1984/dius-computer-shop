@@ -1,0 +1,14 @@
+{
+  "name": "product-rules",
+  "version": "1.0.0",
+  "description": "Manage the checkout rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matt Yao <matt.yao@catch.com.au> (https://github.com/mattyao-cotd/npm-module-demo.git)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.5.0"
+  }
+}

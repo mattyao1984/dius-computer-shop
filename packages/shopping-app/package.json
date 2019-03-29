@@ -1,0 +1,16 @@
+{
+  "name": "shopping-app",
+  "version": "1.0.0",
+  "description": "Main app of the computer shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "product-rules": "1.0.0",
+    "shopping-checkout": "1.0.0"
+  },
+  "author": "Matt Yao <matt.yao@catch.com.au> (https://github.com/mattyao-cotd/npm-module-demo.git)",
+  "license": "MIT"
+}
